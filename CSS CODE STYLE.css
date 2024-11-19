@@ -18,10 +18,11 @@ body {
   }
 
   .profile .photo img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 3px solid #f8c2c2;
+    width: 200px; /* Lebar gambar */
+    height: 200px; /* Tinggi gambar */
+    border-radius: 50%; /* Membuat lingkaran */
+    border: 5px solid #f06292; /* Warna dan tebal border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Efek bayangan */
   }
   
   .audio {
