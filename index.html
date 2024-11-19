@@ -28,7 +28,7 @@
             font-size: 1.5rem;
         }
 
-        /* profile */
+        /* Profile */
         .profile {
             margin-top: 30px;
             background: whitesmoke;
@@ -36,21 +36,28 @@
             max-width: 600px;
             margin: 30px auto;
             border-radius: 15px;
-            box-shadow: 0 4px 9 px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
         }
 
-        /* Profile section */
+        /* Gambar Profil */
         .profile .photo img {
-            <img src="Image/SPECIAL 5.jpg" alt="Foto Bersama">
             width: 200px;
             height: 200px;
-            border-radius: 50%;
-            border: 3px solid #b44e00;
+            border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+            border: 5px solid #b44e00; /* Border dengan warna */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Efek bayangan */
         }
 
         /* Audio player */
         .audio {
             margin-top: 20px;
+        }
+
+        /* Emoji */
+        .emoji img {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
         }
 
         /* Gallery */
@@ -119,10 +126,12 @@
     </style>
 </head>
 <body>
-    <header>Website Kita Bersama <span>💖</span><header>
-        <div class="profile">
+    <header>Website Kita Bersama <span>💖</span></header>
+    <div class="profile">
         <h2>M Ryansyah ❤ Adzra Atiqah</h2>
-        <img src="Image/SPECIAL 5.jpg" alt="Foto Bersama">
+        <div class="photo">
+            <img src="Image/SPECIAL 5.jpg" alt="Foto Bersama">
+        </div>
         <h2>Separuh Aku - Noah</h2>
         <div class="audio">
             <audio controls autoplay>
@@ -134,53 +143,23 @@
             <img src="Image/😽.png" alt="😽">
             <img src="Image/😻.png" alt="😻">
         </div>
-    </div>
+    </div>
         
-        </section>
-
-        <section id="pictures" class="gallery">
-            <h2>Pictures</h2>
-            <div class="photo-grid">
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 8.jpg" alt="Foto 1">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 2.jpg" alt="Foto 2">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 6.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 7.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 9.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 3.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 10.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 11.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 4.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 12.jpg" alt="Foto 3">
-                </div>
-                <div class="photo-heart">
-                    <img src="Image/SPECIAL 13.jpg" alt="Foto 3">
-                </div>
-                <!-- Tambahkan lebih banyak foto di sini -->
+    <section id="pictures" class="gallery">
+        <h2>Pictures</h2>
+        <div class="photo-grid">
+            <div class="photo-heart">
+                <img src="Image/SPECIAL 8.jpg" alt="Foto 1">
             </div>
-        </section>
-    </main>
+            <div class="photo-heart">
+                <img src="Image/SPECIAL 2.jpg" alt="Foto 2">
+            </div>
+            <div class="photo-heart">
+                <img src="Image/SPECIAL 6.jpg" alt="Foto 3">
+            </div>
+            <!-- Tambahkan lebih banyak foto di sini -->
+        </div>
+    </section>
 
     <footer>
         <p>💖 Dibuat dengan cinta untuk kita berdua 💖</p>
