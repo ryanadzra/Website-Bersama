@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Website Bersama Pacar</title>
+    <title>💘Website Kita Bersama💘</title>
     <style>
         /* Mengatur body dan latar belakang */
         body {
@@ -16,57 +16,27 @@
             text-align: center;
         }
 
-        /* Header tetap di atas */
+        /* Header */
         header {
-            position: fixed;
-            top: 0;
-            background: #ffd089;
-            padding: 10px;
-            border-bottom: 2px solid #fdd5c2;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
+            background-color: transparent;
+            padding: 20px;
+            font-size: 2rem;
+            color: #ffd089;
         }
 
-        header h1 {
-            margin: 29;
-            font-size: 1rem;
+        header span {
+            font-size: 1.5rem;
         }
 
-        header h1 span {
-            color: red;
-        }
-
-        /* Gaya navigasi */
-        nav {
-            display: grid;
-            grid-row: auto;
-            gap: 20px; /* Jarak antar elemen */
-            justify-items: center; /* Memusatkan elemen di kolom */
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li {
-            margin: 20px 0;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #1500ff;
-            font-weight: bold;
-            background: #c2c2c2;
-            padding: 10px 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        .profile h2 {
-            color: rgb(0, 0, 0);
+        /* profile */
+        .profile {
+            margin-top: 30px;
             background: whitesmoke;
+            padding: 20px;
+            max-width: 600px;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 9 px rgba(0, 0, 0, 0.1);
         }
 
         /* Profile section */
@@ -148,29 +118,23 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Website Kita Bersama <span>💖</span></h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#pictures">Pictures</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main id="home">
-        <section class="profile">
-            <h2>M Ryansyah ❤️ Adzra Atiqah</h2>
-            <h2></h2>
-            <div class="photo">
-                <img src="Image/SPECIAL 5.jpg" alt="Foto Bersama">
-            </div>
-
-            <h2>Separuh Aku - Noah</h2>
+    <header>Website Kita Bersama <span>💖</span><header>
+        <div class="profile">
+        <h2>M Ryansyah ❤ Adzra Atiqah</h2>
+        <img src="Image/SPECIAL.jpg" alt="Foto Bersama">
+        <h2>Separuh Aku - Noah</h2>
+        <div class="audio">
             <audio controls autoplay>
                 <source src="Songs/Separuh Aku - Noah.mp3" type="audio/mp3">
                 Browser Anda tidak mendukung elemen audio.
             </audio>
+        </div>
+        <div class="emoji">
+            <img src="Image/😽.png" alt="😽">
+            <img src="Image/😻.png" alt="😻">
+        </div>
+    </div>
+        
         </section>
 
         <section id="pictures" class="gallery">
